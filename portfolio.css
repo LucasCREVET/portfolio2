@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    height: 250px;
+}
+
+footer{
+    background: gray;
+    height: 300px;
+}
+
+img{
+    width: 16%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.center2{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+p{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.image2{
+    margin-left: auto;
+}
+
+.container{
+    border: 1px solid black;
+    min-height: 70px; background: white;
+}
+
+.taille{
+    width: 100%;
+}
+
+.taille2{
+    width: 50%;
+}
+
+.animate{
+    animation:slideLeft 3s;
+}
+@keyframes slideLeft{
+    from{
+        transform: translate(50%);
+        color: white;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+.animate2{
+    animation:slideLeft 5s;
+}
+@keyframes slideLeft{
+    from{
+        transform: translate(50%);
+        color: white;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+
+.card{
+    background-color: gray;
+
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: red;
+    color:white ;
+}
